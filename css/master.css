@@ -8,7 +8,6 @@ body {
   color: #666;
   line-height: normal;
   text-align:left;
-  border-left: solid 20px #444;
 }
 
 a {
@@ -41,11 +40,6 @@ p {
   margin: 0 0 30px;
 }
 
-section {
-  height: 82%;
-  overflow-y: scroll;
-}
-
 .list-primary {
   list-style: none;
   padding: 0;
@@ -73,5 +67,14 @@ section {
 }
 
 .text-purple {
-  color: #7f4596
+  color: #7f4596;
+}
+
+.border {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 20px;
+  background: #444;
 }
