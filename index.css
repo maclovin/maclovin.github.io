@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Camcorder';
+  src: url('/fonts/camcorder.woff');
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('/fonts/hack.ttf');
+}
+
+body {
+  margin: 0;
+  padding-bottom: 20px;
+  cursor: text;
+}
+
+textarea,
+input,
+button {
+  outline: none;
+}
+body,
+pre {
+  font: 16px "Hack";
+  line-height: 1.8rem;
+}
+
+body[data-theme="hacker"],
+body[data-theme="hacker"] * {
+  background: #000;
+  color: #0f0;
+  font-family: "Courier New", "Courier";
+  font-size: 18px;
+}
+
+body[data-theme="nerd"],
+body[data-theme="nerd"] * {
+  background: rgb(70, 27, 156);
+  color: rgb(141, 110, 230);
+  font-family: "Camcorder";
+  font-size: 20px;
+}
+
+.terminal {
+  display: block;
+  position: relative;
+  font: 16px "Hack";
+}
+.terminal__command {
+  margin: 20px 0 0 20px;
+}
+.terminal__command[data-hidden=true] {
+  display: none;
+}
+.terminal__input {
+  border: none;
+  font: 16px "Hack";
+  margin: 0 0 0 -5px;
+  width: calc(100% - 200px);
+}
+#output {
+  margin: 0 0 0 20px;
+}

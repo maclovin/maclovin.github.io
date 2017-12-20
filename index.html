@@ -1,143 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>MacLovin | Front-End</title>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <link href='//fonts.googleapis.com/css?family=Josefin+Sans:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/dist/main.css">
-</head>
-<body>
-  <header>
-    <div class="contain-to-grid sticky hide">
-      <nav class="top-bar" data-topbar role="about" data-options="sticky_on: large">
-        <ul class="title-area">
-          <li class="name">
-            <h3 class=""><a href="#">MacLovin</a></h3>
-          </li>
-           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <section class="">
-    <div class="row">
-      <div class="small-centered large-centered medium-centered large-12 medium-12 small-12 columns bl-60 bl-medium-70">
-        <h1 class="hide inverse-title small-12 medium-5 large-4 small-centered medium-centered large-centered columns bl-margin-t-5 bl-medium-margin-t-10 bl-padding-t-2 lighter centered ">MacLovin</h1>
-        <div class="pixel-avatar"></div>
-      </div>
-  </div>
-  </section>
-  <section id="about" class="block-blue">
-    <div class="row">
-      <div class="large-12 medium-12 small-12 bl-padding-t-5 bl-padding-b-5 bl-medium-padding-t-10 bl-medium-padding-b-10 columns">
-          <h2>Hi!</h2>
-          <p class="bl-margin-t-3 bl-margin-b-3 lighter text-primary">
-            My name is Murilo Prestes and i am a 24-year old front-end developer living in Brazil, working full-time at <a href="http://kanui.com.br" target="_blank">Kanui</a>/<a href="http://dafiti.com.br" target="_blank">Dafiti</a>, part-time at <a href="http://universoretro.com.br" target="blank">Universo Retro</a> and <a href="http://vertigem.cc" target="_blank">Vertigem</a>. I like to develop tools and solve technical problems with new solutions and new methods. Since i was a kid i try hacking stuff and share my knowledge with my coworkers.
-          </p>
-          <p class="text-tertiary">
-            My first jobs experiences was desktop development with Visual Studio with SQL Server, but since 2011 i decide to become a full-time Web developer with Python, HTML5, CSS3 and NodeJS. Today i'm front-end developer who got experience with modular architecture, design patterns for client application, reusable components, responsivity, fluid interfaces, atomic design, good practices (and hacks) for the best client performance , isomorphic javascript, design/ux demands management, and agile development. I also do like to develop tools that improve the developers environment.
-          </p>
-      </div>
-  </div>
-  </section>
-  <section class="block-red">
-    <div class="row">
-      <div class="large-12 medium-12 small-12 bl-padding-t-5 bl-padding-b-5 bl-medium-padding-t-10 bl-medium-padding-b-10 columns">
-          <h2>My Stuff</h2>
-          <p class="bl-margin-t-3 bl-margin-b-3 lighter text-primary">
-            Below you can check some labs and published projects that i coded:
-          </p>
-          <div class="row">
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="http://kanui.github.io/baseline" target="_blank">Baseline</a>
-              </h3>
-              <p class="text-tertiary ">Baseline is a library developed to solve pattern and design problems. Just as a grid library, Baseline itself aims to solve vertical rhythm and responsiviness.</p>
-          </div>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Maclovin's Page</title>
+    <link rel="stylesheet" href="/index.css">
+    <meta property="og:url" content="http://maclovin.github.io">
+    <meta property="og:title" content="Welcome to Maclovin's Terminal">
+    <meta property="og:site_name" content="Maclovin's Terminal">
+    <meta property="og:image" content="maclovin.github.io/~.jpg">
+  </head>
+  <body data-theme="default">
+      <section>
+        <article>
+          <pre id="output">
 
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="http://maclovin.github.io/hellomodal" target="_blank">Hello Modal</a>
-              </h3>
-              <p class="text-tertiary ">The modal component for developers. My first experience with JSS (Javascript CSS) approach.</p>
+      ___           ___           ___       ___           ___           ___           ___
+     /\__\         /\  \         /\__\     /\  \         /\  \         /\__\         /\  \
+    /:/ _/_       /::\  \       /:/  /    /::\  \       /::\  \       /::|  |       /::\  \
+   /:/ /\__\     /:/\:\  \     /:/  /    /:/\:\  \     /:/\:\  \     /:|:|  |      /:/\:\  \
+  /:/ /:/ _/_   /::\~\:\  \   /:/  /    /:/  \:\  \   /:/  \:\  \   /:/|:|__|__   /::\~\:\  \
+ /:/_/:/ /\__\ /:/\:\ \:\__\ /:/__/    /:/__/ \:\__\ /:/__/ \:\__\ /:/ |::::\__\ /:/\:\ \:\__\
+ \:\/:/ /:/  / \:\~\:\ \/__/ \:\  \    \:\  \  \/__/ \:\  \ /:/  / \/__/~~/:/  / \:\~\:\ \/__/
+  \::/_/:/  /   \:\ \:\__\    \:\  \    \:\  \        \:\  /:/  /        /:/  /   \:\ \:\__\
+   \:\/:/  /     \:\ \/__/     \:\  \    \:\  \        \:\/:/  /        /:/  /     \:\ \/__/
+    \::/  /       \:\__\        \:\__\    \:\__\        \::/  /        /:/  /       \:\__\
+     \/__/         \/__/         \/__/     \/__/         \/__/         \/__/         \/__/
+      
+     
+Here's @maclovin's terminal. Type "help" if you're lost.
+Type "theme" to change terminal's theme.
+          </pre>
+        </article>
+        <article class="terminal">
+          <div class="terminal__command" data-hidden="false" id="inputField">
+            λ ~/
+            <input type="text" class="terminal__input" id="input"/>
           </div>
+        </article>
+      </section>
+      <script src="/index.js"></script>
+    </body>
+  </html>
 
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="http://maclovin.github.io/notesjs" target="_blank">NotesJS</a>
-              </h3>
-              <p class="text-tertiary">A command-line Notes/Lists manager for hackers and developers. My first NPM-side application.</p>
-          </div>
-
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="http://maclovin.github.io/loopjs" target="_blank">LoopJS</a>
-              </h3>
-              <p class="text-tertiary justified">An experimental javascript beatmaker for algorave live session. <span class='wip'>wip</span> </p>
-          </div>
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="https://github.com/brunogola/rhok-bush-appengine" target="_blank">RHoK Bush</a>
-              </h3>
-              <p class="text-tertiary ">
-                One of collaborative hacks developed on Random Hacks Of Kindness 2011. RHoK Bush help you give or get stuff based on your geographic position.
-              </p>
-          </div>
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="https://github.com/maclovin/stalker" target="_blank">Stalker</a>
-              </h3>
-              <p class="text-tertiary ">
-                A hacker tool that help you find enterprise emails, hosts and people. <span class='wip'>deprecated</span>
-              </p>
-          </div>
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="https://github.com/maclovin/stalker" target="_blank">Khumbor</a>
-              </h3>
-              <p class="text-tertiary ">
-                Khumbor is a new Thumbor client for NodeJS. Developed for new <a href="http://kanui.com.br" target="_blank">Kanui</a> theme.
-              </p>
-          </div>
-          <div class="small-12 large-3 columns project-item bl-28-auto">
-              <h3>
-                <a href="https://www.youtube.com/watch?v=rc7i2S4OSnw" target="_blank">Esteganografia Aumentada</a>
-              </h3>
-              <p class="text-tertiary ">
-                Video apresentation of my first hack on Yahoo! Open Hack Day contest.
-              </p>
-          </div>
-          <div class="small-12 large-3 columns project-item bl-28-auto end">
-              <h3>
-                <a href="" target="_blank">OrganicCSS</a>
-              </h3>
-              <p class="text-tertiary">
-                Slide apresentation about Organic CSS, the easy way to organize style sheets and creating modular "views".
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="block-black">
-    <div class="row">
-      <div class="large-12 medium-12 small-12 bl-padding-t-5 bl-padding-b-5 bl-medium-padding-t-10 bl-medium-padding-b-10 columns">
-          <h2>Contact Me</h2>
-          <p class="bl-margin-t-3 bl-margin-b-3 lighter text-primary">
-            You can get in touch to talk about code, a intersting job or just buy me a beer:
-          </p>
-          <ul class="contact">
-            <li class="contact-item bold text-secondary bl-margin-t-2"><a href="mailto:m4k2005@yahoo.com" target="blank">m4k2005 at yahoo.com</a></li>
-            <li class="contact-item bold text-secondary bl-margin-t-2"><a href="http://linkedin.com/in/muriloprestes" target="blank">Murilo Prestes at Linkedin</a></li>
-            <li class="contact-item bold text-secondary bl-margin-t-2"><a href="http://github.com/maclovin" target="blank">/maclovin at Github</a></li>
-            <li class="contact-item bold text-secondary bl-margin-t-2"><a href="http://twitter.com/maclovinbr" target="blank">@maclovinbr at Twitter</a></li>
-          </ul>
-        </div>
-      </div>
-  </section>
-  <script src="/dist/main.js"></script>
-</body>
-</html>
