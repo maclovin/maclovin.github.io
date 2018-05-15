@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding-bottom: 20px;
   cursor: text;
+  overflow: hidden;
 }
 
 textarea,
