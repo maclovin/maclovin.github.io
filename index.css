@@ -26,6 +26,7 @@ pre {
   line-height: 1.8rem;
 }
 
+
 body[data-theme="hacker"],
 body[data-theme="hacker"] * {
   background: #000;
@@ -37,7 +38,7 @@ body[data-theme="hacker"] * {
 body[data-theme="nerd"],
 body[data-theme="nerd"] * {
   background: rgb(70, 27, 156);
-  color: rgb(141, 110, 230);
+  color: rgb(171, 150, 232);
   font-family: "Camcorder";
   font-size: 20px;
 }
@@ -61,4 +62,34 @@ body[data-theme="nerd"] * {
 }
 #output {
   margin: 0 0 0 20px;
+}
+
+.highviews {
+  display: block;
+  margin: 60px 0 0 20px;
+}
+
+.highviews__cover {
+  width: 200px;
+  height:200px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.highviews__cover img {
+  margin-top: 7px;
+  max-width: 200px;
+}
+
+.highviews__text {
+  width: 720px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+}
+
+h3 {
+  margin: 0 0 20px;
+  font-weight: bolder;
 }
