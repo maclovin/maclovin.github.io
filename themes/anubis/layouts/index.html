@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <div class="homepage-content">
+        {{ .Content }}
+    </div>
+    <section class="intro">
+
+    </section>
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ range (.Paginate $pages).Pages }}
+        {{ partial "postSummary.html" . }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+
+{{ end }}
